@@ -1,0 +1,9 @@
+---
+field1:
+  field1: sub { [split / /, shift]->[0] }
+  field2: sub { [split / /, shift]->[1] }
+field2:
+  field3: sub { uc shift }
+  field4: sub { lc shift }
+field3: field5
+

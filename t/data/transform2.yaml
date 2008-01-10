@@ -1,0 +1,13 @@
+---
+field1:
+  field1:
+    args:
+      - field1
+      - field2
+    func: sub { [split / /, shift]->[0] . shift }
+  field2: sub { [split / /, shift]->[1] }
+field2:
+  field3: sub { uc shift }
+  field4: sub { lc shift }
+field3: field5
+

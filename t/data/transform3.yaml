@@ -1,0 +1,11 @@
+---
+field1: field2
+field2: field1
+field3:
+  field3:
+    args:
+      - field3
+      - field4
+      - field5
+    func: sub { join(",", @_) }
+

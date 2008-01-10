@@ -1,0 +1,45 @@
+Text::CSV::Transform
+
+This module allows you to take a csv file and apply data transformations on the data and
+create another csv file based on a simple YAML template.
+
+try perldoc Text::CSV::Transform for more details.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Text::CSV::Transform
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-CSV-Transform
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Text-CSV-Transform
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Text-CSV-Transform
+
+    Search CPAN
+        http://search.cpan.org/dist/Text-CSV-Transform
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2007 Bharanee Rathna
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
